@@ -1,11 +1,11 @@
 {
     "compat": 1,
     "maxStoreSize": 0,
-    "backupTime": "Wed Mar 31 2021 14:46:04 GMT+0900 (Korean Standard Time)",
+    "backupTime": "Thu Apr 01 2021 11:26:47 GMT+0900 (Korean Standard Time)",
     "version": "3.0.5",
     "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0",
     "computed": {
-        "verified": "19c057639367c8f56f0b1144ed63b6a1"
+        "verified": "bc47fa211a5a17a8379b0be7e2134d10"
     },
     "data": {
         "Main_ExecutionOrder": {
@@ -13,7 +13,6 @@
                 "Pref_GoogleHeader",
                 "Pref_ETagTrack",
                 "Pref_PingBlock",
-                "Pref_NativeFunctions",
                 "Pref_ClientRects",
                 "Pref_CommonTracking",
                 "Pref_HardwareSpoof",
@@ -28,7 +27,8 @@
                 "Pref_BatteryApi",
                 "Pref_PluginHide",
                 "Pref_AudioFingerprint",
-                "Pref_CanvasFingerprint"
+                "Pref_CanvasFingerprint",
+                "Pref_NativeFunctions"
             ],
             "PerPage": []
         },
@@ -67,32 +67,6 @@
                     "Pref_WebGLFingerprint": true
                 }
             },
-            "*youtube.com*": {
-                "PresetLevel": null,
-                "SiteBlocked": false,
-                "InitRequests": false,
-                "Protections": {
-                    "Pref_AudioFingerprint": true,
-                    "Pref_BatteryApi": true,
-                    "Pref_CanvasFingerprint": true,
-                    "Pref_ClientRects": true,
-                    "Pref_CommonTracking": true,
-                    "Pref_CookieEater": true,
-                    "Pref_ETagTrack": true,
-                    "Pref_GoogleHeader": true,
-                    "Pref_IPSpoof": true,
-                    "Pref_NativeFunctions": true,
-                    "Pref_NetworkInformation": true,
-                    "Pref_HardwareSpoof": true,
-                    "Pref_PingBlock": true,
-                    "Pref_PluginHide": true,
-                    "Pref_ReferHeader": true,
-                    "Pref_ScreenRes": false,
-                    "Pref_UserAgent": true,
-                    "Pref_WebRTC": true,
-                    "Pref_WebGLFingerprint": true
-                }
-            },
             "*chiasenhac.vn*": {
                 "PresetLevel": null,
                 "SiteBlocked": false,
@@ -119,14 +93,92 @@
                     "Pref_WebGLFingerprint": true
                 }
             },
-            "*bongda365.club*": {
+            "*github.com*": {
                 "PresetLevel": null,
                 "SiteBlocked": false,
-                "InitRequests": true,
+                "InitRequests": false,
                 "Protections": {
                     "Pref_AudioFingerprint": true,
                     "Pref_BatteryApi": true,
                     "Pref_CanvasFingerprint": true,
+                    "Pref_ClientRects": true,
+                    "Pref_CommonTracking": true,
+                    "Pref_CookieEater": false,
+                    "Pref_ETagTrack": true,
+                    "Pref_GoogleHeader": true,
+                    "Pref_IPSpoof": true,
+                    "Pref_NativeFunctions": true,
+                    "Pref_NetworkInformation": true,
+                    "Pref_HardwareSpoof": true,
+                    "Pref_PingBlock": true,
+                    "Pref_PluginHide": true,
+                    "Pref_ReferHeader": true,
+                    "Pref_ScreenRes": true,
+                    "Pref_UserAgent": true,
+                    "Pref_WebRTC": true,
+                    "Pref_WebGLFingerprint": true
+                }
+            },
+            "*youtube.com*": {
+                "PresetLevel": null,
+                "SiteBlocked": false,
+                "InitRequests": false,
+                "Protections": {
+                    "Pref_AudioFingerprint": true,
+                    "Pref_BatteryApi": true,
+                    "Pref_CanvasFingerprint": true,
+                    "Pref_ClientRects": true,
+                    "Pref_CommonTracking": true,
+                    "Pref_CookieEater": false,
+                    "Pref_ETagTrack": true,
+                    "Pref_GoogleHeader": true,
+                    "Pref_IPSpoof": true,
+                    "Pref_NativeFunctions": true,
+                    "Pref_NetworkInformation": true,
+                    "Pref_HardwareSpoof": true,
+                    "Pref_PingBlock": true,
+                    "Pref_PluginHide": true,
+                    "Pref_ReferHeader": true,
+                    "Pref_ScreenRes": false,
+                    "Pref_UserAgent": true,
+                    "Pref_WebRTC": true,
+                    "Pref_WebGLFingerprint": true
+                }
+            },
+            "*facebook.com*": {
+                "PresetLevel": null,
+                "SiteBlocked": false,
+                "InitRequests": false,
+                "Protections": {
+                    "Pref_AudioFingerprint": true,
+                    "Pref_BatteryApi": true,
+                    "Pref_CanvasFingerprint": true,
+                    "Pref_ClientRects": true,
+                    "Pref_CommonTracking": true,
+                    "Pref_CookieEater": false,
+                    "Pref_ETagTrack": true,
+                    "Pref_GoogleHeader": true,
+                    "Pref_IPSpoof": true,
+                    "Pref_NativeFunctions": true,
+                    "Pref_NetworkInformation": true,
+                    "Pref_HardwareSpoof": true,
+                    "Pref_PingBlock": true,
+                    "Pref_PluginHide": true,
+                    "Pref_ReferHeader": true,
+                    "Pref_ScreenRes": true,
+                    "Pref_UserAgent": true,
+                    "Pref_WebRTC": true,
+                    "Pref_WebGLFingerprint": true
+                }
+            },
+            "*vn-z.vn*": {
+                "PresetLevel": null,
+                "SiteBlocked": false,
+                "InitRequests": false,
+                "Protections": {
+                    "Pref_AudioFingerprint": true,
+                    "Pref_BatteryApi": true,
+                    "Pref_CanvasFingerprint": false,
                     "Pref_ClientRects": true,
                     "Pref_CommonTracking": true,
                     "Pref_CookieEater": true,
@@ -145,7 +197,33 @@
                     "Pref_WebGLFingerprint": true
                 }
             },
-            "*github.com*": {
+            "*spotify.com*": {
+                "PresetLevel": null,
+                "SiteBlocked": false,
+                "InitRequests": false,
+                "Protections": {
+                    "Pref_AudioFingerprint": false,
+                    "Pref_BatteryApi": false,
+                    "Pref_CanvasFingerprint": false,
+                    "Pref_ClientRects": false,
+                    "Pref_CommonTracking": false,
+                    "Pref_CookieEater": false,
+                    "Pref_ETagTrack": false,
+                    "Pref_GoogleHeader": false,
+                    "Pref_IPSpoof": false,
+                    "Pref_NativeFunctions": false,
+                    "Pref_NetworkInformation": false,
+                    "Pref_HardwareSpoof": false,
+                    "Pref_PingBlock": false,
+                    "Pref_PluginHide": false,
+                    "Pref_ReferHeader": false,
+                    "Pref_ScreenRes": false,
+                    "Pref_UserAgent": false,
+                    "Pref_WebRTC": false,
+                    "Pref_WebGLFingerprint": false
+                }
+            },
+            "*pushbullet.com*": {
                 "PresetLevel": null,
                 "SiteBlocked": false,
                 "InitRequests": false,
@@ -155,7 +233,59 @@
                     "Pref_CanvasFingerprint": true,
                     "Pref_ClientRects": true,
                     "Pref_CommonTracking": true,
-                    "Pref_CookieEater": false,
+                    "Pref_CookieEater": true,
+                    "Pref_ETagTrack": true,
+                    "Pref_GoogleHeader": true,
+                    "Pref_IPSpoof": true,
+                    "Pref_NativeFunctions": true,
+                    "Pref_NetworkInformation": true,
+                    "Pref_HardwareSpoof": true,
+                    "Pref_PingBlock": true,
+                    "Pref_PluginHide": true,
+                    "Pref_ReferHeader": true,
+                    "Pref_ScreenRes": false,
+                    "Pref_UserAgent": true,
+                    "Pref_WebRTC": true,
+                    "Pref_WebGLFingerprint": true
+                }
+            },
+            "*translate.google.com*": {
+                "PresetLevel": null,
+                "SiteBlocked": false,
+                "InitRequests": false,
+                "Protections": {
+                    "Pref_AudioFingerprint": true,
+                    "Pref_BatteryApi": true,
+                    "Pref_CanvasFingerprint": true,
+                    "Pref_ClientRects": true,
+                    "Pref_CommonTracking": true,
+                    "Pref_CookieEater": true,
+                    "Pref_ETagTrack": true,
+                    "Pref_GoogleHeader": true,
+                    "Pref_IPSpoof": true,
+                    "Pref_NativeFunctions": true,
+                    "Pref_NetworkInformation": true,
+                    "Pref_HardwareSpoof": true,
+                    "Pref_PingBlock": true,
+                    "Pref_PluginHide": true,
+                    "Pref_ReferHeader": true,
+                    "Pref_ScreenRes": true,
+                    "Pref_UserAgent": false,
+                    "Pref_WebRTC": true,
+                    "Pref_WebGLFingerprint": true
+                }
+            },
+            "*voz.vn*": {
+                "PresetLevel": null,
+                "SiteBlocked": false,
+                "InitRequests": false,
+                "Protections": {
+                    "Pref_AudioFingerprint": true,
+                    "Pref_BatteryApi": true,
+                    "Pref_CanvasFingerprint": false,
+                    "Pref_ClientRects": false,
+                    "Pref_CommonTracking": true,
+                    "Pref_CookieEater": true,
                     "Pref_ETagTrack": true,
                     "Pref_GoogleHeader": true,
                     "Pref_IPSpoof": true,
