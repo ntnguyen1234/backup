@@ -1,0 +1,143 @@
+no-csp-reports: * true
+no-large-media: behind-the-scene false
+no-popups: * true
+no-popups: addons.about-scheme false
+no-popups: itempage3.auction.co.kr false
+no-popups: www.auction.co.kr false
+no-popups: www.autohotkey.com false
+no-popups: baomoi.com false
+no-popups: www.bing.com false
+no-popups: blogtruyen.vn false
+no-popups: diakov.net false
+no-popups: discord.com false
+no-popups: www.facebook.com false
+no-popups: fptshop.com.vn false
+no-popups: gitee.com false
+no-popups: github.com false
+no-popups: gitlab.com false
+no-popups: item.gmarket.co.kr false
+no-popups: fonts.google.com false
+no-popups: keep.google.com false
+no-popups: www.google.com false
+no-popups: greasyfork.org false
+no-popups: www.instapaper.com false
+no-popups: katfile.com false
+no-popups: addons.mozilla.org false
+no-popups: discourse.mozilla.org false
+no-popups: www.nationalgeographic.com false
+no-popups: papago.naver.com false
+no-popups: search.shopping.naver.com false
+no-popups: outlook.office.com false
+no-popups: thread.pfg.pw false
+no-popups: old.reddit.com false
+no-popups: www.reddit.com false
+no-popups: saved.io false
+no-popups: securenote.io false
+no-popups: slashdot.org false
+no-popups: stackoverflow.com false
+no-popups: superuser.com false
+no-popups: web.tabliss.io false
+no-popups: www.thegioididong.com false
+no-popups: timgolden.me.uk false
+no-popups: turbobit.net false
+no-popups: twitter.com false
+no-popups: tabs.ultimate-guitar.com false
+no-popups: www.venturelessons.com false
+no-popups: font.vietdesigner.net false
+no-popups: forum.vietdesigner.net false
+no-popups: vn-z.vn false
+no-popups: voz.vn false
+no-popups: en.wikipedia.org false
+no-popups: chromium.woolyss.com false
+no-popups: forum.xda-developers.com false
+no-popups: www.youtube.com false
+no-popups: chat.zalo.me false
+* * 3p block
+* * 3p-frame block
+* * 3p-script block
+* adtimaserver.vn * block
+* alexametrics.com * block
+* log.baomoi.com * block
+* service.baomoi.com * block
+* ajax.cloudflare.com * noop
+* dable.io * block
+* doubleclick.net * block
+* esmplus.com * noop
+* facebook.net * block
+* yt3.ggpht.com * noop
+* google-analytics.com * block
+* adservice.google.co.kr * block
+* googletagmanager.com * block
+* googletagservices.com * block
+* googleusercontent.com * noop
+* googlevideo.com * noop
+* secure.gravatar.com * noop
+* api.imgur.com * noop
+* i.imgur.com * noop
+* i.stack.imgur.com * noop
+* i.postimg.cc * noop
+* pstatic.net * noop
+* redd.it * noop
+* reddit.com * noop
+* redditmedia.com * noop
+* redditstatic.com * noop
+* sstatic.net * noop
+* media.tenor.co * noop
+* twimg.com * noop
+* user-images.githubusercontent.com * noop
+* yadro.ru * block
+* an.yandex.ru * block
+* www.youtube.com * noop
+* i.ytimg.com * noop
+* adtima-static.zadn.vn * block
+baomoi.com zadn.vn * noop
+baophapluat.vn zadn.vn * noop
+discord.com gateway.discord.gg * noop
+discord.com cdn.discordapp.com * noop
+discord.com discordapp.net * noop
+www.facebook.com fbcdn.net * noop
+github.com avatars.githubusercontent.com * noop
+github.com github.githubassets.com * noop
+gitlab.com gitlab-static.net * noop
+glosbe.com translate.googleapis.com * noop
+keep.google.com fonts.googleapis.com * noop
+keep.google.com play.google.com * block
+keep.google.com gstatic.com * noop
+keep.google.com maps.googleapis.com * noop
+translate.google.com play.google.com * block
+translate.google.com gstatic.com * noop
+www.google.com * 3p noop
+www.nationalgeographic.com brightcove.net * noop
+www.nationalgeographic.com dtci.technology * noop
+www.nationalgeographic.com espn.com * noop
+www.nationalgeographic.com espncdn.com * noop
+www.nationalgeographic.com natgeofe.com * noop
+www.nationalgeographic.com uplynk.com * noop
+www.nationalgeographic.com zencdn.net * noop
+outlook.office.com * 3p noop
+outlook.office.com * 3p-script noop
+outlook.office.com licdn.com * block
+outlook.office.com lync.com * block
+outlook.office.com microsoft.com * block
+outlook.office.com office.com * block
+outlook.office.com outlook.office.com * noop
+outlook.office.com rgstatic.net * block
+outlook.office.com skype.com * block
+outlook.office.com tason.com * block
+www.office.com * 3p noop
+www.office.com * 3p-frame noop
+www.office.com * 3p-script noop
+thread.pfg.pw * image noop
+thread.pfg.pw api.pushshift.io * noop
+forum.release-apk.com adservice.google.com * noop
+forum.release-apk.com googleadservices.com * noop
+forum.release-apk.com googlesyndication.com * noop
+stackoverflow.com ajax.googleapis.com * noop
+voz.vn * 3p noop
+voz.vn * 3p-frame allow
+voz.vn * 3p-script allow
+voz.vn gstatic.com * block
+voz.vn libring.com * block
+voz.vn twemoji.maxcdn.com * noop
+www.google.com https://play.google.com xmlhttprequest block
+www.google.com https://www.gstatic.com script noop
